@@ -84,6 +84,7 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 30px;
+    font-size: 14px;
 }
 
 .headNav nav a {
@@ -111,10 +112,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     border-top: 1px dashed black;
-    /* padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 17px;
-    padding-left: 17px; */
 
 }
 
@@ -124,12 +121,10 @@ p {
     flex-direction: column;
     align-items: flex-start;
     overflow: hidden;
-    width: 49%;
+    width: 46%;
     border-bottom: 1px dashed black;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 17px;
-    padding-left: 17px;
 
 }
 
@@ -139,7 +134,18 @@ p {
     border-radius: 10px;
     color: black;
     padding: 10px 25px;
+    
 }
+
+.aboutTextBox a:hover{
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px 25px;
+    box-shadow: 5px 5px 20px;
+    transition: .5s;
+}
+
 .aboutTextBox img{
     width: 100%;
     margin-bottom: 15px;
@@ -152,10 +158,6 @@ p {
 #footerText {
     margin: 20px 0px;
 }
-
-/* .fullWidthText:nth-last-of-type(1) {
-    margin: 20px 0px;
-} */
 
 .middle-content {
     margin-bottom: 20px;
