@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+.headNav {
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.headNav nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.headNav nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -81,9 +101,61 @@ p {
 
 .top-content .text-container {
     width: 48%;
+    margin-top: 20px;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.aboutTextBoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-top: 1px dashed black;
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 17px;
+    padding-left: 17px; */
+
+}
+
+.aboutTextBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    width: 49%;
+    border-bottom: 1px dashed black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 17px;
+    padding-left: 17px;
+
+}
+
+.aboutTextBox a{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 25px;
+}
+.aboutTextBox img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.fullWidthText {
+    padding: 20px;
+}
+
+#footerText {
+    margin: 20px 0px;
+}
+
+/* .fullWidthText:nth-last-of-type(1) {
+    margin: 20px 0px;
+} */
 
 .middle-content {
     margin-bottom: 20px;
